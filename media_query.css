@@ -1,0 +1,184 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+
+     #landing {
+          background: #f1f1f1 !important;
+     }
+
+     .text-landing-hello {
+          font-size: 36px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 22px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 3rem 0;
+     }
+     #quote .text-quote{
+          font-size: 48px;
+     }
+
+     .col-res{
+          margin: 1rem 0;
+     }
+
+     #about{
+          padding: 1rem 0;
+     }
+
+     .text-title{
+          font-size: 44px;
+     }
+
+     #experience{
+          padding: 2rem 0;
+     }
+     
+     .card-custom{
+          padding: 30px !important;
+     }
+     
+     #skills{
+          padding: 1rem 0 2rem;
+     }
+}
+
+/* Small devices (Landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+
+     #landing {
+          background: #f1f1f1 !important;
+     }
+
+     .text-landing-hello {
+          font-size: 48px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 70px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 25px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 4rem 0;
+     }
+     #quote .text-quote{
+          font-size: 56px;
+     }
+
+     .col-res{
+          margin: 1rem 0;
+     }
+
+     #about{
+          padding: 1rem 0;
+     }
+
+     .text-title{
+          font-size: 48px;
+     }
+
+     #experience{
+          padding: 2rem 0;
+     }
+     
+     .card-custom{
+          padding: 40px !important;
+     }
+     
+     #skills{
+          padding: 1rem 0 3rem;
+     }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+     
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+     
+     #landing{
+          height: 50vh;
+          min-height: 450px;
+          background: url('assets/profile_vincent.png'), #f1f1f1;
+          background-repeat: no-repeat;
+          background-size: 400px;
+          background-position: 95% 100%;
+     }
+
+     .text-landing-hello {
+          font-size: 42px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 20px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 4rem 0;
+     }
+     #quote .text-quote{
+          font-size: 56px;
+     }
+
+     .col-res{
+          margin: 1rem 0;
+     }
+
+     #about{
+          padding: 1rem 0;
+     }
+
+     .text-title{
+          font-size: 48px;
+     }
+
+     #experience{
+          padding: 2rem 0;
+     }
+     
+     .card-custom{
+          padding: 40px !important;
+     }
+     
+     #skills{
+          padding: 1rem 0 3rem;
+     }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 2000px) {}
+
+@media (min-width: 2500px) {}
