@@ -108,7 +108,7 @@
      }
      
      #skills{
-          padding: 1rem 0 3rem;
+          padding: 3rem 0;
      }
 }
 
@@ -176,9 +176,14 @@
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
-
-@media (min-width: 2000px) {}
-
-@media (min-width: 2500px) {}
+     #landing{
+          height: 40vh;
+          min-height: 450px;
+          background: url('assets/profile_vincent.png'), #f1f1f1;
+          background-repeat: no-repeat;
+          background-size: 450px;
+          background-position: 95% 100%;
+     }
+}
