@@ -5,7 +5,7 @@ html {
 .title-line {
   width: 80px;
   height: 3px;
-  background: black;
+  background: rgb(0, 2, 17);
   margin-bottom: 0.5rem;
 }
 
@@ -44,13 +44,20 @@ html {
 }
 
 /* FOOTER */
+footer {
+  padding-top: 4rem;
+  background: url('assets/divider_top.png') top center no-repeat, url('assets/landing_background.png') center center,
+    rgb(0, 2, 17);
+  background-size:
+    100% 30%,
+    cover;
+}
+
 footer .footer-top {
-  background: black;
-  padding: 2rem 0 1rem 0;
+  padding: 3rem 0 0 0;
 }
 
 footer .footer-bottom {
-  background: rgb(44, 44, 44);
   padding: 1rem 0;
   color: white;
   text-align: center;
@@ -66,13 +73,13 @@ footer .footer-link {
   color: inherit;
 }
 
-
+/* INDEX */
 #landing {
   height: 100vh;
-  min-height: 100vh;
-  background: url('assets/landing_background.png') center center, rgb(0, 2, 17);
-  background-size: cover;
-  border-radius: 0 0 10rem 0;
+  min-height: 130vh;
+  background: url('assets/divider_bottom.png') bottom center no-repeat, url('assets/landing_background.png') center center, rgb(0, 2, 17);
+  background-size: 100% 20%, cover, cover;
+  padding-bottom: 5rem;
 }
 
 .text-landing-hello {
@@ -125,7 +132,7 @@ footer .footer-link {
 }
 
 #quote {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 #quote .text-quote {
@@ -133,15 +140,17 @@ footer .footer-link {
   font-size: 80px;
   padding: 1rem 0;
   font-weight: lighter;
+  color: rgb(0, 2, 17);
 }
 
 #about {
-  padding: 4rem 0 8rem 0;
+  padding: 4rem 0 6rem 0;
 }
 
 #about .image-content {
   width: 100%;
   border-radius: 15px;
+  box-shadow: 20px 20px rgb(0, 2, 17);
 }
 
 .text-title {
@@ -154,19 +163,19 @@ footer .footer-link {
 }
 
 #experiences {
-  padding: 3rem 0;
-  background: url(assets/old.jpg) no-repeat;
-  background-size: cover;
+  padding: 10rem 0;
+  background: url('assets/divider_top.png') top center no-repeat,
+    url('assets/divider_bottom.png') bottom center no-repeat, url('assets/landing_background.png') center center,
+    rgb(0, 2, 17);
+  background-size: 100% 10%, 100% 10%, cover;
 }
 
 .card-custom {
-  border-radius: 15px !important;
-  padding: 40px !important;
-  margin: 1rem 0;
-  border: 1px solid #f0f0f0 !important;
+  border-radius: 30px !important;
+  padding: 30px !important;
+  margin: 2rem 0;
 }
 
 #skills {
-  padding: 4rem 0 6rem;
-  background-color: #f8f9fa;
+  padding: 4rem 0 4rem;
 }
