@@ -1,162 +1,172 @@
 html {
-     scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .title-line {
-     width: 80px;
-     height: 3px;
-     background: black;
-     margin-bottom: 0.5rem;
- }
-
-.navbar-home{
-     background: rgba(0, 0, 0, 0.85);
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin-bottom: 0.5rem;
 }
 
-.navbar-home .nav-link{
-     color:white !important;
-     font-size:17px;
+/* NAVBAR */
+.navbar-home {
+  background-color: white;
+  box-shadow: 0 0 7px rgb(80, 80, 80);
 }
 
-.navbar-home .nav-hover{
-     border-radius: 50px;
-     margin: 0 5px;
-     padding : 0 8px;
-     transition: 200ms ease;
+.navbar-home .nav-link {
+  font-size: 17px;
+  color: inherit;
 }
 
-.navbar-home .nav-hover:hover{
-     background: white !important;
+.navbar-brand {
+  padding: 10px 2rem !important;
+  border-radius: 5rem;
+  background-color: rgba(0, 6, 61, 1);
+  color: white;
+  text-decoration: none;
 }
 
-.navbar-home .nav-hover:hover > .nav-link{
-     color:rgb(69, 59, 85) !important;
+.navbar-home .nav-hover {
+  border-radius: 50px;
+  margin: 0 5px;
+  padding: 0 10px;
+  transition: 0.3s all ease;
 }
 
-footer .footer-top{
-     background:black;
-     padding: 2rem 0 1rem 0;
+.navbar-home .nav-hover:hover {
+  background: rgb(0, 6, 61);
 }
 
-footer .footer-bottom{
-     background: rgb(44, 44, 44);
-     padding: 1rem 0;
-     color:white;
-     text-align: center;
+.navbar-home .nav-hover:hover>.nav-link {
+  color: white;
 }
 
-footer .social-icon{
-     color:white;
-     padding:10px;
+/* FOOTER */
+footer .footer-top {
+  background: black;
+  padding: 2rem 0 1rem 0;
 }
 
-footer .footer-link{
-     text-decoration: none;
-     color:inherit;
+footer .footer-bottom {
+  background: rgb(44, 44, 44);
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
 }
 
-#landing{
-     height: 60vh;
-     padding-top: 2rem;
-     min-height: 550px;
-     background: url('assets/profile_vincent.png'), #f1f1f1;
-     background-repeat: no-repeat;
-     background-size: 450px;
-     background-position: 90% 100%;
+footer .social-icon {
+  color: white;
+  padding: 10px;
 }
 
-.text-landing-hello{
-     color: rgb(87, 87, 87);
-     font-size:36px;
-     margin:0;
-     font-weight: lighter;
+footer .footer-link {
+  text-decoration: none;
+  color: inherit;
 }
 
-#landing .social-icon{
-     transition: 400ms;
+
+#landing {
+  height: 100vh;
+  min-height: 100vh;
+  background: url('assets/landing_background.png') center center, rgb(0, 2, 17);
+  background-size: cover;
+  border-radius: 0 0 10rem 0;
 }
 
-#landing .social-icon:hover{
-     color: black;
+.text-landing-hello {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+  font-weight: lighter;
 }
 
-.text-landing-name{
-     font-size: 90px;
-     font-weight: bold;
+.text-landing-name {
+  color: white;
 }
 
-.text-landing-greetings{
-     font-size:24px;
-     font-weight: lighter;
+#landing .social-icon {
+  transition: 400ms;
 }
 
-#landing .social-media{
-     margin: 10px 0;
+#landing .social-icon:hover {
+  color: black;
 }
 
-#landing .social-icon{
-     color:gray;
-     padding:5px;
+.text-landing-name {
+  font-size: 90px;
+  font-weight: bold;
 }
 
-#landing .button-link{
-     background:black;
-     color:white;
-     font-size:18px;
-     padding: 5px 20px;
-     border-radius: 50px;
-     margin-top: 10px;
-     transition: 200ms ease;
+.text-landing-greetings {
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
 }
 
-#landing .button-link:hover{
-     background:gray;
-     color:white;
+#landing .button-link {
+  background: white;
+  color: black;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: 200ms ease;
+}
+
+#landing .button-link:hover {
+  background: rgb(218, 218, 218);
+}
+
+.profile-landing {
+  border-radius: 50%;
+  box-shadow: 40px 20px rgb(4, 102, 231);
 }
 
 #quote {
-     padding: 6rem 0;
-}
-#quote .text-quote{
-     text-align: center;
-     font-size: 80px;
-     padding: 1rem 0;
-     font-weight: lighter;    
+  padding: 6rem 0;
 }
 
-#about{
-     padding: 4rem 0 8rem 0;
+#quote .text-quote {
+  text-align: center;
+  font-size: 80px;
+  padding: 1rem 0;
+  font-weight: lighter;
 }
 
-#about .image-content{
-     width: 100%;
-     border-radius: 15px;
+#about {
+  padding: 4rem 0 8rem 0;
 }
 
-.text-title{
-     font-size: 56px;
-     padding: 1rem 0;
+#about .image-content {
+  width: 100%;
+  border-radius: 15px;
 }
 
-#about p{
-     font-size: 18px;
+.text-title {
+  font-size: 56px;
+  padding: 1rem 0;
 }
 
-#experiences{
-     padding: 3rem 0;
-     background: url(assets/old.jpg) no-repeat;
-     background-size: cover;
+#about p {
+  font-size: 18px;
 }
 
-.card-custom{
-     border-radius: 15px !important;
-     padding: 40px !important;
-     margin: 1rem 0;
-     border: 1px solid #f0f0f0 !important;
+#experiences {
+  padding: 3rem 0;
+  background: url(assets/old.jpg) no-repeat;
+  background-size: cover;
 }
 
-#skills{
-     padding: 4rem 0 6rem;
-     background-color: #f8f9fa;
+.card-custom {
+  border-radius: 15px !important;
+  padding: 40px !important;
+  margin: 1rem 0;
+  border: 1px solid #f0f0f0 !important;
 }
 
+#skills {
+  padding: 4rem 0 6rem;
+  background-color: #f8f9fa;
+}
