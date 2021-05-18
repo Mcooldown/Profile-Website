@@ -1,11 +1,15 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
      .navbar-brand-text {
           font-size: 28px !important;
      }
 
      #landing {
-          background: #f1f1f1 !important;
+          background-size: 100% 10%,
+               cover,
+               cover;
+          min-height: 100vh;
      }
 
      .text-landing-hello {
@@ -26,32 +30,41 @@
      #quote {
           padding: 3rem 0;
      }
-     #quote .text-quote{
+
+     #quote .text-quote {
           font-size: 48px;
      }
 
-     .col-res{
-          margin: 1rem 0;
-     }
-
-     #about{
+     #about {
           padding: 1rem 0;
      }
 
-     .text-title{
+     .image-content {
+          box-shadow: 10px 10px rgb(0, 6, 61) !important;
+     }
+
+     .text-title {
           font-size: 44px;
      }
 
-     #experience{
-          padding: 2rem 0;
+     #experiences {
+          background-size: 100% 4%,
+               100% 4%,
+               cover;
+          padding: 6rem 0;
      }
-     
-     .card-custom{
+
+     .card-custom {
           padding: 30px !important;
      }
-     
-     #skills{
+
+     #skills {
           padding: 1rem 0 2rem;
+     }
+
+     footer {
+          background-size: 100% 15%, cover;
+          padding-top: 2rem;
      }
 }
 
@@ -62,7 +75,10 @@
      }
 
      #landing {
-          background: #f1f1f1 !important;
+          background-size: 100% 10%,
+               cover,
+               cover;
+          min-height: 160vh;
      }
 
      .text-landing-hello {
@@ -83,50 +99,56 @@
      #quote {
           padding: 4rem 0;
      }
-     #quote .text-quote{
+
+     #quote .text-quote {
           font-size: 56px;
      }
 
-     .col-res{
+     .col-res {
           margin: 1rem 0;
      }
 
-     #about{
+     #about {
           padding: 1rem 0;
      }
 
-     .text-title{
+     .text-title {
           font-size: 48px;
      }
 
-     #experience{
-          padding: 2rem 0;
+     #experiences {
+          background-size: 100% 4%,
+               100% 4%,
+               cover;
+          padding: 6rem 0;
      }
-     
-     .card-custom{
+
+     .card-custom {
           padding: 40px !important;
      }
-     
-     #skills{
+
+     #skills {
           padding: 3rem 0;
+     }
+
+     footer {
+          background-size: 100% 15%, cover;
+          padding-top: 2rem;
      }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-     
+
      .navbar-brand-text {
           font-size: 28px !important;
      }
-     
-     #landing{
-          height: 50vh;
-          min-height: 450px;
-          background: url('assets/profile_vincent.png'), #f1f1f1;
-          background-repeat: no-repeat;
-          background-size: 400px;
-          background-position: 95% 100%;
+
+     #landing {
+          min-height: 60vh;
+          height: 60vh;
      }
+
 
      .text-landing-hello {
           font-size: 42px;
@@ -146,44 +168,38 @@
      #quote {
           padding: 4rem 0;
      }
-     #quote .text-quote{
+
+     #quote .text-quote {
           font-size: 56px;
      }
 
-     .col-res{
+     .col-res {
           margin: 1rem 0;
      }
 
-     #about{
+     #about {
           padding: 1rem 0;
      }
 
-     .text-title{
+     .text-title {
           font-size: 48px;
      }
 
-     #experience{
-          padding: 2rem 0;
+     #experiences {
+          background-size: 100% 6%,
+               100% 6%,
+               cover;
+          padding: 6rem 0;
      }
-     
-     .card-custom{
+
+     .card-custom {
           padding: 40px !important;
      }
-     
-     #skills{
+
+     #skills {
           padding: 1rem 0 3rem;
      }
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-     #landing{
-          height: 40vh;
-          min-height: 450px;
-          background: url('assets/profile_vincent.png'), #f1f1f1;
-          background-repeat: no-repeat;
-          background-size: 450px;
-          background-position: 95% 100%;
-     }
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
