@@ -48,8 +48,8 @@
      }
 
      #experiences {
-          background-size: 100% 4%,
-               100% 4%,
+          background-size: 100% 3%,
+               100% 3%,
                cover;
           padding: 6rem 0;
      }
@@ -59,7 +59,7 @@
      }
 
      #skills {
-          padding: 1rem 0 2rem;
+          padding: 2rem 0;
      }
 
      footer {
@@ -166,7 +166,7 @@
      }
 
      #quote {
-          padding: 4rem 0;
+          padding: 2rem 0;
      }
 
      #quote .text-quote {
@@ -178,7 +178,7 @@
      }
 
      #about {
-          padding: 1rem 0;
+          padding: 2rem 0;
      }
 
      .text-title {
@@ -197,7 +197,7 @@
      }
 
      #skills {
-          padding: 1rem 0 3rem;
+          padding: 3rem 0 2rem 0;
      }
 }
 
