@@ -1,0 +1,93 @@
+/* Components */
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-blue {
+  background-color: rgb(0, 6, 61) !important;
+}
+
+.shadow-e-blue {
+  box-shadow: 10px 10px rgb(4, 102, 231);
+}
+
+.shadow-s-blue {
+  box-shadow: -10px -10px rgb(4, 102, 231);
+}
+
+.title-line {
+  width: 80px;
+  height: 3px;
+  background: rgb(0, 2, 17);
+  margin-bottom: 0.5rem;
+}
+
+.social-icon {
+  color: white;
+  padding: 10px;
+}
+
+.card-custom {
+  border-radius: 30px !important;
+  padding: 30px !important;
+  margin: 2rem 0;
+}
+
+/* NAVBAR */
+.navbar-home {
+  background-color: white;
+  box-shadow: 0 0 7px rgb(80, 80, 80);
+}
+
+.navbar-home .nav-link {
+  font-size: 17px;
+  color: inherit;
+}
+
+.navbar-brand {
+  padding: 10px 2rem !important;
+  border-radius: 5rem;
+  background-color: rgba(0, 6, 61, 1);
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-home .nav-hover {
+  border-radius: 50px;
+  margin: 5px;
+  padding: 0 10px;
+  transition: 0.3s all ease;
+}
+
+.navbar-home .nav-hover:hover {
+  background: rgb(0, 6, 61);
+}
+
+.navbar-home .nav-hover:hover>.nav-link {
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 4rem;
+  background: url('assets/divider_top.png') top center no-repeat, url('assets/landing_background.png') center center,
+    rgb(0, 2, 17);
+  background-size:
+    100% 30%,
+    cover;
+}
+
+.footer-top {
+  padding: 3rem 0 0 0;
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
