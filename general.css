@@ -116,6 +116,17 @@ footer {
   font-size: 42px;
 }
 
+.sublanding {
+  padding: 10rem 0;
+  background: url('assets/landing.png') center center, rgb(0, 2, 17);
+  background-size: cover;
+}
+
+.text-landing-name {
+  font-size: 56px;
+  font-weight: bold;
+}
+
 @media (max-width: 575.98px) {
 
   .text-title {
