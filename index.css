@@ -4,7 +4,7 @@
 #landing {
      height: 110vh;
      min-height: 110vh;
-     background: url('assets/landing_new2.png') center center, rgb(0, 2, 17);
+     background: url('assets/landing.png') center center, rgb(0, 2, 17);
      background-size: cover;
 }
 
