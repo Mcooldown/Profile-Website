@@ -4,7 +4,7 @@
 #landing {
      height: 110vh;
      min-height: 110vh;
-     background: url('assets/landing.png') center center, rgb(0, 2, 17);
+     background: url('../assets/landing.png') center center, rgb(0, 2, 17);
      background-size: cover;
 }
 
@@ -40,13 +40,13 @@
 }
 
 .section-background {
-     background: url('assets/section-background.png') center center;
+     background: url('../assets/section-background.png') center center;
      background-size: cover;
 }
 
 #skills-experiences {
      padding: 6rem 0;
-     background: url('assets/skill-experiences.png') bottom center no-repeat, #1f1f1f;
+     background: url('../assets/skill-experiences.png') bottom center no-repeat, #1f1f1f;
      background-size: cover, cover;
 }
 
@@ -103,32 +103,33 @@
      #about {
           padding: 1rem 0;
      }
+}
 
-     /* Medium devices (tablets, less than 992px) */
-     @media (min-width: 768px) and (max-width: 991.98px) {
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
 
-          #landing {
-               min-height: 60vh;
-               height: 60vh;
-          }
-
-          .text-landing-name {
-               font-size: 62px;
-               font-weight: bold;
-          }
-
-          #quote {
-               padding: 2rem 0;
-          }
-
-          #quote .text-quote {
-               font-size: 56px;
-          }
-
-          #about {
-               padding: 2rem 0;
-          }
+     #landing {
+          min-height: 60vh;
+          height: 60vh;
      }
 
-     /* Large devices (desktops, less than 1200px) */
-     /* @media (min-width: 992px) and (max-width: 1199.98px) {} */
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     #quote {
+          padding: 2rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 56px;
+     }
+
+     #about {
+          padding: 2rem 0;
+     }
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) {} */

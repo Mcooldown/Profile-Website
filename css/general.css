@@ -118,7 +118,7 @@ footer {
 
 .sublanding {
   padding: 10rem 0;
-  background: url('assets/landing.png') center center, rgb(0, 2, 17);
+  background: url('../assets/landing.png') center center, rgb(0, 2, 17);
   background-size: cover;
 }
 
