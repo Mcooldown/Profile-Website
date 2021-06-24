@@ -13,7 +13,7 @@
 }
 
 .text-landing-name {
-     font-size: 82px;
+     font-size: 72px;
      font-weight: bold;
 }
 
@@ -23,10 +23,9 @@
 
 #quote .text-quote {
      text-align: center;
-     font-size: 72px;
+     font-size: 65px;
      padding: 1rem 0 2rem 0;
      color: rgb(48, 48, 48);
-     font-weight: lighter;
 }
 
 #about {
@@ -39,13 +38,8 @@
      box-shadow: 20px 20px rgb(0, 2, 17);
 }
 
-.section-background {
-     background: url('../assets/section-background.png') center center;
-     background-size: cover;
-}
-
 #skills-experiences {
-     padding: 6rem 0;
+     padding: 5rem 0;
      background: url('../assets/skill-experiences.png') bottom center no-repeat, #1f1f1f;
      background-size: cover, cover;
 }
