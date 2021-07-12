@@ -48,6 +48,9 @@
      padding: 6rem 0;
 }
 
+#skills-experiences img {
+     height: 70px;
+}
 
 @media (max-width: 575.98px) {
 
